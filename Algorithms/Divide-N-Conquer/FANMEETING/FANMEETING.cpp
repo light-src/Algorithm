@@ -1,4 +1,5 @@
-#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -6,7 +7,7 @@
 #define MAX 200000
 
 using namespace std;
-
+//karatsuba
 void normalize(vector<int>& num) {
 
 	num.push_back(0);
@@ -27,7 +28,6 @@ void normalize(vector<int>& num) {
 
 	while (num.size() > 1 && num.back() == 0) num.pop_back();
 }
-
 void addTo(vector<int>& a, const vector<int>& b, int k) {
 
 	if (b.size() + k > a.size()) {
@@ -38,21 +38,19 @@ void addTo(vector<int>& a, const vector<int>& b, int k) {
 	for (int i = k, j = 0; i < a.size(); i++, j++) {
 		a[i] += b[j];
 	}
-	normalize(a);
+	//normalize(a);
 
-	while (a.size() > 1 && a.back() == 0) a.pop_back();
+	//while (a.size() > 1 && a.back() == 0) a.pop_back();
 }
-
 void subFrom(vector<int>& a, vector<int>& b) {
 
 	for (int i = 0; i < b.size(); i++) {
 		a[i] -= b[i];
 	}
-	normalize(a);
+	//normalize(a);
 
-	while (a.size() > 1 && a.back() == 0) a.pop_back();
+	//while (a.size() > 1 && a.back() == 0) a.pop_back();
 }
-
 vector<int> multiply(const vector<int>& a, const vector<int>& b) {
 	vector<int> c(a.size() + b.size() + 1, 0);
 
@@ -61,11 +59,10 @@ vector<int> multiply(const vector<int>& a, const vector<int>& b) {
 			c[i + j] += a[i] * b[j];
 		}
 
-	normalize(c);
+	//normalize(c);
 
 	return c;
 }
-
 vector<int> karatsuba(const vector<int>& a, const vector<int>& b) {
 	int an = a.size(), bn = b.size();
 
@@ -98,25 +95,53 @@ vector<int> karatsuba(const vector<int>& a, const vector<int>& b) {
 	addTo(ret, z2, half + half);
 	return ret;
 }
+//karatsuba end
 
-int hug_cnt(char* hyper, char* fan) {
+void str_to_int_arr(const string hyper, const string fan, vector<int>& hyper_val, vector<int>& fan_val) {
 
+	int H = hyper.size();
+	int F = fan.size();
+
+	hyper_val = vector<int>(H);
+	fan_val = vector<int>(F);
+
+	for (int i = H-1, j = 0; i >= 0; i--, j++) hyper_val[i] = (hyper[j] == 'M');
+	for (int i = 0; i < F; i++) fan_val[i] = (fan[i] == 'M');
+
+}
+
+int hug_cnt(vector<int> hyper, vector<int> fan) {
+
+	vector<int> result = karatsuba(hyper, fan);
+	int all_hug = 0;
+
+	for (int i = hyper.size() - 1; i < fan.size(); i++) {
+		
+		if (result[i] == 0)
+			all_hug++;
+	}
+
+	return all_hug;
 }
 
 void data_in() {
 	FILE  *f;
 	int N;
-	char hyper[MAX];
-	char fan[MAX];
+	string hyper;
+	string fan;
 
 	f = freopen("./Divide-N-Conquer/FANMEETING/input.txt", "r", stdin);
 
-	fscanf(f, "%d ", &N);
+	scanf("%d ", &N);
 
 	for (int i = 0; i < N; i++) {
-		fscanf(f, "%s", hyper);
-		fscanf(f, "%s", fan);
+		cin >> hyper;
+		cin >> fan;
 
+		vector<int> hyper_val,fan_val;
+		str_to_int_arr(hyper, fan, hyper_val, fan_val);
+		int res = hug_cnt(hyper_val, fan_val);
+		printf("%d\n", res);
 	}
 
 }

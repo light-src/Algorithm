@@ -45,7 +45,7 @@
     <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
       <Filter>소스 파일\Brute-force\TSP%28BF%29</Filter>
     </ClCompile>
-    <ClCompile Include="FANMEETING.cpp">
+    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,7 +59,7 @@
     <Text Include="Brute-force\TSP(BF)\input.txt">
       <Filter>소스 파일\Brute-force\TSP%28BF%29</Filter>
     </Text>
-    <Text Include="input.txt">
+    <Text Include="Divide-N-Conquer\FANMEETING\input.txt">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </Text>
   </ItemGroup>

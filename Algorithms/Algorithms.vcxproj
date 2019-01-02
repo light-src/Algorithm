@@ -23,18 +23,18 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="FANMEETING.cpp" />
+    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\BOARDCOVER\input.txt" />
     <Text Include="Brute-force\CLOCKSYNC\input.txt" />
     <Text Include="Brute-force\TSP(BF)\input.txt" />
-    <Text Include="input.txt" />
+    <Text Include="Divide-N-Conquer\FANMEETING\input.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Divide-N-Conquer\KARATSUBA\KARATSUBA.h" />
