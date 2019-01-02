@@ -13,28 +13,59 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Brute-force">
+      <UniqueIdentifier>{c4b7db70-7ca4-43ee-a96d-b379cb0b75e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\TSP%28BF%29">
+      <UniqueIdentifier>{1742cbd2-bc0d-42d7-92d1-c1a9c099db58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\CLOCKSYNC">
+      <UniqueIdentifier>{b3cfd5cd-311d-4334-9e8b-90804a56d0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\BOARDCOVER">
+      <UniqueIdentifier>{6fa1f7c5-0713-43b3-aad1-d4492f9d02fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-Conquer">
+      <UniqueIdentifier>{91685b74-2493-4ba5-bbaa-6a794d6b7b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-Conquer\KARATSUBA">
+      <UniqueIdentifier>{eda59eff-32fe-4ce4-829b-516aed0752ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-Conquer\FANMEETING">
+      <UniqueIdentifier>{fa5e7e13-38d7-4a32-aa27-27514fedabf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BINO.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
+      <Filter>소스 파일\Brute-force\CLOCKSYNC</Filter>
     </ClCompile>
-    <ClCompile Include="calculateTimeComplexity.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Brute-force\BOARDCOVER\BOARDCOVER.cpp">
+      <Filter>소스 파일\Brute-force\BOARDCOVER</Filter>
     </ClCompile>
-    <ClCompile Include="JUMPGAME.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
+      <Filter>소스 파일\Brute-force\TSP%28BF%29</Filter>
     </ClCompile>
-    <ClCompile Include="TRIANGLEPATH.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="FANMEETING.cpp">
+      <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </ClCompile>
-    <ClCompile Include="WILDCARD.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LIS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="JLIS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Brute-force\CLOCKSYNC\input.txt">
+      <Filter>소스 파일\Brute-force\CLOCKSYNC</Filter>
+    </Text>
+    <Text Include="Brute-force\BOARDCOVER\input.txt">
+      <Filter>소스 파일\Brute-force\BOARDCOVER</Filter>
+    </Text>
+    <Text Include="Brute-force\TSP(BF)\input.txt">
+      <Filter>소스 파일\Brute-force\TSP%28BF%29</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Divide-N-Conquer\KARATSUBA\KARATSUBA.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

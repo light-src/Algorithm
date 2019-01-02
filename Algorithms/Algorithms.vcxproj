@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -17,6 +17,27 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Brute-force\BOARDCOVER\BOARDCOVER.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="FANMEETING.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Brute-force\BOARDCOVER\input.txt" />
+    <Text Include="Brute-force\CLOCKSYNC\input.txt" />
+    <Text Include="Brute-force\TSP(BF)\input.txt" />
+    <Text Include="input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Divide-N-Conquer\KARATSUBA\KARATSUBA.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -114,15 +135,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="BINO.cpp" />
-    <ClCompile Include="calculateTimeComplexity.cpp" />
-    <ClCompile Include="JLIS.cpp" />
-    <ClCompile Include="JUMPGAME.cpp" />
-    <ClCompile Include="LIS.cpp" />
-    <ClCompile Include="TRIANGLEPATH.cpp" />
-    <ClCompile Include="WILDCARD.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
