@@ -1,9 +1,9 @@
-#BOADCOVER
+# BOADCOVER
 
-##문제 링크
+## 링크
 <https://algospot.com/judge/problem/read/BOARDCOVER>
 
-##해설
+## 해설
 게임판을 덮는 모든 경우를 생성하는 완전 탐색을 이용해 해결할 수 있다.  
 하지만 모든 칸을 어떻게 덮느냐를 생각하는 게 중요하다.  
 여기서는 모든 칸을 왼쪽 위에서부터 순서대로 두어서 완전 탐색을 가능하게 했다.  
