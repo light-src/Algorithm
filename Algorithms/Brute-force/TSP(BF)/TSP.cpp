@@ -8,18 +8,18 @@
 
 using namespace std;
 
-int M;
+int H;
 double dist[MAX][MAX];
 
 double TSP(vector<int> &path, vector<bool> &visited, double currentLength) {
 
 	double ret = INF;
 
-	if (path.size() == M) {
+	if (path.size() == H) {
 		return currentLength + dist[path.back()][path[0]];
 	}
 
-	for (int i = 0; i < M; i++) {
+	for (int i = 0; i < H; i++) {
 		if (visited[i]) continue;
 
 		int toNode = path.back();
@@ -44,18 +44,18 @@ void data_in() {
 	fscanf(f, "%d ", &N);
 
 	for (int i = 0; i < N; i++) {
-		fscanf(f, "%d ", &M);
+		fscanf(f, "%d ", &H);
 
-		memset(dist, 0, sizeof(double)*M*M);
+		memset(dist, 0, sizeof(double)*H*H);
 
-		for (int j = 0; j < M; j++) {
-			for (int k = 0; k < M; k++) {
+		for (int j = 0; j < H; j++) {
+			for (int k = 0; k < H; k++) {
 				fscanf(f, "%lf ", &dist[j][k]);
 			}
 		}
 
 		vector<int> path;
-		vector<bool> visited(M, false);
+		vector<bool> visited(H, false);
 
 		path.push_back(0);
 		visited[0] = true;

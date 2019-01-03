@@ -28,12 +28,24 @@
     <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp" />
+    <ClCompile Include="Dinamic-Programming(Basic)\JLIS\JLIS.cpp" />
+    <ClCompile Include="Dinamic-Programming(Basic)\LIS\LIS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\TRIANGLEPATH\TRIANGLEPATH.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\BOARDCOVER\input.txt" />
     <Text Include="Brute-force\CLOCKSYNC\input.txt" />
     <Text Include="Brute-force\TSP(BF)\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\JLIS\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\LIS\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\TRIANGLEPATH\input.txt" />
     <Text Include="Divide-N-Conquer\FANMEETING\input.txt" />
   </ItemGroup>
   <ItemGroup>

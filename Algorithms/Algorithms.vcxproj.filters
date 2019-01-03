@@ -34,6 +34,18 @@
     <Filter Include="소스 파일\Divide-N-Conquer\FANMEETING">
       <UniqueIdentifier>{fa5e7e13-38d7-4a32-aa27-27514fedabf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29">
+      <UniqueIdentifier>{06b98cea-aadb-4f02-8d89-5e40fda411db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH">
+      <UniqueIdentifier>{eb547ce0-422f-4e34-bc7c-b02f1ce67951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\LIS">
+      <UniqueIdentifier>{3fb3dac9-8ab4-4b1e-8725-a0d4bdb77f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\JLIS">
+      <UniqueIdentifier>{2856dd80-e93d-481c-a4e4-a0657a34ec45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
@@ -48,6 +60,15 @@
     <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\TRIANGLEPATH\TRIANGLEPATH.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\LIS\LIS.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\JLIS\JLIS.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JLIS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\CLOCKSYNC\input.txt">
@@ -61,6 +82,15 @@
     </Text>
     <Text Include="Divide-N-Conquer\FANMEETING\input.txt">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\TRIANGLEPATH\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\LIS\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\LIS</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\JLIS\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JLIS</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
