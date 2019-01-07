@@ -34,6 +34,18 @@
     <Filter Include="소스 파일\Divide-N-Conquer\FANMEETING">
       <UniqueIdentifier>{fa5e7e13-38d7-4a32-aa27-27514fedabf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29">
+      <UniqueIdentifier>{9813eeb1-e09f-43c1-9dde-bf76851e4269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME">
+      <UniqueIdentifier>{1ec9b762-9a46-41ad-b86a-62ac02069d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\WILDCARD">
+      <UniqueIdentifier>{939014e3-e7cf-414a-963f-010a597b1628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS">
+      <UniqueIdentifier>{70c289b1-56cb-4d90-8c49-0785987a3735}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
@@ -48,6 +60,15 @@
     <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\JUMPGAME\JUMPGAME.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\WILDCARD\WILDCARD.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\WILDCARD</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\NUMB3RS\NUMB3RS.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\CLOCKSYNC\input.txt">
@@ -61,6 +82,15 @@
     </Text>
     <Text Include="Divide-N-Conquer\FANMEETING\input.txt">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\JUMPGAME\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\WILDCARD\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\WILDCARD</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\NUMB3RS\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

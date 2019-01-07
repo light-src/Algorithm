@@ -28,12 +28,24 @@
     <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp" />
+    <ClCompile Include="Dinamic-Programming(Basic)\JUMPGAME\JUMPGAME.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\NUMB3RS\NUMB3RS.cpp" />
+    <ClCompile Include="Dinamic-Programming(Basic)\WILDCARD\WILDCARD.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\BOARDCOVER\input.txt" />
     <Text Include="Brute-force\CLOCKSYNC\input.txt" />
     <Text Include="Brute-force\TSP(BF)\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\JUMPGAME\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\NUMB3RS\input.txt" />
+    <Text Include="Dinamic-Programming(Basic)\WILDCARD\input.txt" />
     <Text Include="Divide-N-Conquer\FANMEETING\input.txt" />
   </ItemGroup>
   <ItemGroup>
