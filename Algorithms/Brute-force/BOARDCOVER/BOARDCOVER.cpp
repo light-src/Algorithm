@@ -64,22 +64,21 @@ int cover_cnt(int board[][20]) {
 
 void data_in() {
 	
-	FILE* f;
 	int board[20][20];
+	
+	freopen("./Brute-force/BOARDCOVER/input.txt", "r",stdin);
 
-	f = fopen("./Brute-force/BOARDCOVER/input.txt", "r");
-
-	fscanf(f, "%d ", &N);
+	scanf("%d ", &N);
 	for (int i = 0; i < N; i++) {
 
 		memset(board, 0, sizeof(int) * 20 * 20);
 		
-		fscanf(f, "%d %d ", &H, &W);
+		scanf("%d %d ", &H, &W);
 
 		for (int j = 0; j < H; j++) {
 			for (int k = 0; k < W; k++) {
 				char c;
-				fscanf(f, "%c ", &c);
+				scanf("%c ", &c);
 
 				if (c == '.')
 					board[j][k] = 0;

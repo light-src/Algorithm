@@ -35,6 +35,7 @@
       <UniqueIdentifier>{fa5e7e13-38d7-4a32-aa27-27514fedabf8}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Dinamic-Programming%28Basic%29">
+<<<<<<< HEAD
       <UniqueIdentifier>{9813eeb1-e09f-43c1-9dde-bf76851e4269}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME">
@@ -45,6 +46,18 @@
     </Filter>
     <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS">
       <UniqueIdentifier>{70c289b1-56cb-4d90-8c49-0785987a3735}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{06b98cea-aadb-4f02-8d89-5e40fda411db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH">
+      <UniqueIdentifier>{eb547ce0-422f-4e34-bc7c-b02f1ce67951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\LIS">
+      <UniqueIdentifier>{3fb3dac9-8ab4-4b1e-8725-a0d4bdb77f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-Programming%28Basic%29\JLIS">
+      <UniqueIdentifier>{2856dd80-e93d-481c-a4e4-a0657a34ec45}</UniqueIdentifier>
+>>>>>>> 9ab643f4e675335a7e5146c09392cb9ea2e58e3a
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +73,7 @@
     <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Dinamic-Programming(Basic)\JUMPGAME\JUMPGAME.cpp">
       <Filter>소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME</Filter>
     </ClCompile>
@@ -68,6 +82,16 @@
     </ClCompile>
     <ClCompile Include="Dinamic-Programming(Basic)\NUMB3RS\NUMB3RS.cpp">
       <Filter>소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS</Filter>
+=======
+    <ClCompile Include="Dinamic-Programming(Basic)\TRIANGLEPATH\TRIANGLEPATH.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\LIS\LIS.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\JLIS\JLIS.cpp">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JLIS</Filter>
+>>>>>>> 9ab643f4e675335a7e5146c09392cb9ea2e58e3a
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +107,7 @@
     <Text Include="Divide-N-Conquer\FANMEETING\input.txt">
       <Filter>소스 파일\Divide-N-Conquer\FANMEETING</Filter>
     </Text>
+<<<<<<< HEAD
     <Text Include="Dinamic-Programming(Basic)\JUMPGAME\input.txt">
       <Filter>소스 파일\Dinamic-Programming%28Basic%29\JUMPGAME</Filter>
     </Text>
@@ -91,6 +116,16 @@
     </Text>
     <Text Include="Dinamic-Programming(Basic)\NUMB3RS\input.txt">
       <Filter>소스 파일\Dinamic-Programming%28Basic%29\NUMB3RS</Filter>
+=======
+    <Text Include="Dinamic-Programming(Basic)\TRIANGLEPATH\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\TRIANGLEPATH</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\LIS\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\LIS</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\JLIS\input.txt">
+      <Filter>소스 파일\Dinamic-Programming%28Basic%29\JLIS</Filter>
+>>>>>>> 9ab643f4e675335a7e5146c09392cb9ea2e58e3a
     </Text>
   </ItemGroup>
   <ItemGroup>

@@ -48,7 +48,7 @@ void push_sw(int sw) {
 }
 
 int swtch_cnt(int sw_num) {
-	//±âÀú»ç·Ê
+	//Â±Ã¢Ã€ÃºÂ»Ã§Â·ÃŠ
 	if (sw_num == SWNUM) return  are_alined() ? 0 : INF;
 
 	int ret = INF;
@@ -66,16 +66,15 @@ int swtch_cnt(int sw_num) {
 
 void data_in() {
 	
-	FILE *f;
 	int N;
 
-  	f = freopen("./Brute-force/CLOCKSYNC/input.txt","r",stdin);
+  	freopen("./Brute-force/CLOCKSYNC/input.txt","r",stdin);
 	
-	fscanf(f, "%d ", &N);
+	scanf("%d ", &N);
 
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < CLOCKNUM; j++) {
-			fscanf(f, "%d ", &clk[j]);
+			scanf("%d ", &clk[j]);
 		}
 
 		int min_value = swtch_cnt(0);
