@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force">
+      <UniqueIdentifier>{04704e8a-5429-474a-973b-762dd96da727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-conquer">
+      <UniqueIdentifier>{5f62966a-c649-4aca-bd73-09b79362b3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01">
+      <UniqueIdentifier>{963c7da7-ea9e-452e-a34e-40ca5b9bc904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\BOARDCOVER">
+      <UniqueIdentifier>{a55270a8-6dc7-42cb-b237-da1eb7d391ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\CLOCKSYNC">
+      <UniqueIdentifier>{7f394110-dee8-4594-8984-509b72993f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brute-force\TSP">
+      <UniqueIdentifier>{692bdda1-34c2-45fb-9539-bb10975940b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-conquer\FANMEETING">
+      <UniqueIdentifier>{f166dc6c-bafe-4b11-b063-793ff2d3dc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-conquer\KARATSUBA">
+      <UniqueIdentifier>{060f2bf6-05b7-4b09-adbd-b9b9ed59a07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\JLIS">
+      <UniqueIdentifier>{1275b37c-c4b2-41ad-81d7-dcf5040c328e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\JUMPGAME">
+      <UniqueIdentifier>{c7244766-5308-44ff-8d87-fdde184a4285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\LIS">
+      <UniqueIdentifier>{b9833c53-d109-48ed-8447-ae6c32b0099c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\NUMB3RS">
+      <UniqueIdentifier>{43694d4a-619c-47b0-a037-71392471c9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\TRIANGLEPATH">
+      <UniqueIdentifier>{5ac29f15-5a77-4590-830f-b709d6c927c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-01\WILDCARD">
+      <UniqueIdentifier>{0b9a8e19-5be7-476f-91ae-d640cc78054c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-conquer\QUADTREE">
+      <UniqueIdentifier>{09ccfd58-ee14-43d2-9761-6a09a636f55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Divide-N-conquer\FENCE">
+      <UniqueIdentifier>{e8d566ac-991e-49ed-ae54-3d57fb2d6e48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Brute-force\BOARDCOVER\BOARDCOVER.cpp">
+      <Filter>소스 파일\Brute-force\BOARDCOVER</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute-force\TSP(BF)\TSP.cpp">
+      <Filter>소스 파일\Brute-force\TSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Brute-force\CLOCKSYNC\CLOCKSYNC.cpp">
+      <Filter>소스 파일\Brute-force\CLOCKSYNC</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide-N-Conquer\FANMEETING\FANMEETING.cpp">
+      <Filter>소스 파일\Divide-N-conquer\FANMEETING</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\JLIS\JLIS.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\JLIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\JUMPGAME\JUMPGAME.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\JUMPGAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\LIS\LIS.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\NUMB3RS\NUMB3RS.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\NUMB3RS</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\TRIANGLEPATH\TRIANGLEPATH.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\TRIANGLEPATH</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Basic)\WILDCARD\WILDCARD.cpp">
+      <Filter>소스 파일\Dinamic-programming-01\WILDCARD</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide-N-Conquer\QUADTREE\QUADTREE.cpp">
+      <Filter>소스 파일\Divide-N-conquer\QUADTREE</Filter>
+    </ClCompile>
+    <ClCompile Include="Divide-N-Conquer\FENCE\FENCE.cpp">
+      <Filter>소스 파일\Divide-N-conquer\FENCE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Brute-force\BOARDCOVER\input.txt">
+      <Filter>소스 파일\Brute-force\BOARDCOVER</Filter>
+    </Text>
+    <Text Include="Brute-force\TSP(BF)\input.txt">
+      <Filter>소스 파일\Brute-force\TSP</Filter>
+    </Text>
+    <Text Include="Brute-force\CLOCKSYNC\input.txt">
+      <Filter>소스 파일\Brute-force\CLOCKSYNC</Filter>
+    </Text>
+    <Text Include="Divide-N-Conquer\FANMEETING\input.txt">
+      <Filter>소스 파일\Divide-N-conquer\FANMEETING</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\JLIS\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\JLIS</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\JUMPGAME\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\JUMPGAME</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\LIS\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\LIS</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\NUMB3RS\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\NUMB3RS</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\TRIANGLEPATH\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\TRIANGLEPATH</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Basic)\WILDCARD\input.txt">
+      <Filter>소스 파일\Dinamic-programming-01\WILDCARD</Filter>
+    </Text>
+    <Text Include="Divide-N-Conquer\QUADTREE\input.txt">
+      <Filter>소스 파일\Divide-N-conquer\QUADTREE</Filter>
+    </Text>
+    <Text Include="Divide-N-Conquer\FENCE\input.txt">
+      <Filter>소스 파일\Divide-N-conquer\FENCE</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Divide-N-Conquer\KARATSUBA\KARATSUBA.h">
+      <Filter>소스 파일\Divide-N-conquer\KARATSUBA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
