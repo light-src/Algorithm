@@ -61,6 +61,15 @@
     <Filter Include="소스 파일\Divide-N-conquer\FENCE">
       <UniqueIdentifier>{e8d566ac-991e-49ed-ae54-3d57fb2d6e48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-02">
+      <UniqueIdentifier>{abe783a2-ce18-440f-aa72-e7a66ffabecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-02\OCR">
+      <UniqueIdentifier>{7dc99fb1-b480-4be2-a935-3da7ab080be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dinamic-programming-02\KLIS">
+      <UniqueIdentifier>{f730f73b-0123-457f-b4ed-cbd722b9d7b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Brute-force\BOARDCOVER\BOARDCOVER.cpp">
@@ -99,6 +108,12 @@
     <ClCompile Include="Divide-N-Conquer\FENCE\FENCE.cpp">
       <Filter>소스 파일\Divide-N-conquer\FENCE</Filter>
     </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Advanced)\OCR\OCR.cpp">
+      <Filter>소스 파일\Dinamic-programming-02\OCR</Filter>
+    </ClCompile>
+    <ClCompile Include="Dinamic-Programming(Advanced)\KLIS\KLIS.cpp">
+      <Filter>소스 파일\Dinamic-programming-02\KLIS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Brute-force\BOARDCOVER\input.txt">
@@ -136,6 +151,9 @@
     </Text>
     <Text Include="Divide-N-Conquer\FENCE\input.txt">
       <Filter>소스 파일\Divide-N-conquer\FENCE</Filter>
+    </Text>
+    <Text Include="Dinamic-Programming(Advanced)\OCR\input.txt">
+      <Filter>소스 파일\Dinamic-programming-02\OCR</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
